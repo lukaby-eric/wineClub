@@ -209,7 +209,7 @@
 
 #closeContainerBtn{
     padding: 10px;
-    transform: translateY(-10px);
+    transform: translateY(10px);
     background: none;
     border: none;
     color: red;
