@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Louie's Wine Dive</title>
+</head>
+<body>
+    <!------------------------------------- Navbar starts---------------------------------------------->
+   
+    <div id="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <div class="nav-links">
+                <input type="checkbox" id="check">
+                <label for="check" class="fa fa-bars"></label>
+                <ul id="myNav">
+                    <li><a href="index.html">Wine Club</a></li>
+                    <li><a href="https://www.louieswinedive.com/">Louie's Wine Dive</a></li>
+                    <li><a href="pages/gift-membership.html">Gift Memberships</a></li>
+                    <li><a href="pages/about-us.html">About Us</a></li>
+                    <li><a href="#" class="fa fa-cart-plus"> (0) | $0.00</a></li>
+                </ul>
+            </div>
+        </div>
+   </div>
+   
+   
+    <!-------------------------------------- home starts--------------------------------------->
+   
+    <section id="home">
+        <div class="container col-lg-9" id="home-container">
+            <h3>Welcome to Louie's Wine Club</h3>
+            <h1>We're Glad You're Here</h1>
+            <p>Louie’s Wine Dive is proud to offer you
+                 membership to our Wine Club. Club members will 
+                 receive carefully selected and exceptional handcrafted 
+                 wine every month, with introductions and tasting notes from the
+                  Louie’s Wine Dive team of certified sommeliers. Join a community 
+                  of wine lovers centered around your local Louie's Wine Dive and enjoy 
+                  monthly community events like Wine Club Tastings, members-only 
+                  access to small lots of wine, and early access
+                 to winemaker dinners, tastings and other VIP experiences.</p>
+
+            <a href="pages/our-wine-club.html" id="btn"><i id="glass-one" class="fa fa-glass"></i><button id="home-btn">JOIN NOW</button><i id="glass-two" class="fa fa-glass"></i></a>
+        </div>
+    </section>
+    <!-------------------------------------- home-page ends------------------------------------>
+    <!-------------------------------------- second-page starts-------------------------------->
+    <siction id="second-page">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4" id="wine-clubs">
+                    <img src="assets/images/wine9.jpg" id="secondpage-img">
+                    <div id="descriptions" onclick="openOurWineClub()">
+                        <div class="text-center" id="texts">
+                            <i id="i" class="fa fa-glass"></i>
+                            <h2>Our Wine Clubs</h2>
+                        </div>                         
+                    </div>    
+                </div>
+                <div class="col-md-4" id="club-notes">
+                    <img src="assets/images/wine1x.jpg" id="secondpage-img">
+                    <div id="descriptions" onclick="openWineClubNotes()">
+                        <div class="text-center" id="texts">
+                            <i id="i" class="fa fa-newspaper-o"></i>
+                            <h2>Wine Clubs Notes</h2>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-md-4" id="events">
+                    <img src="assets/images/wine5x.jpg" id="secondpage-img">
+                    <div id="descriptions" onclick="openUpcomingEvents()">
+                        <div class="text-center" id="texts">
+                            <i id="i" class="fa fa-calendar"></i>
+                            <h2>Upcoming Events</h2>
+                        </div>    
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </siction>
+    <!-- wine club notes container -->
+
+    <div id="our-wine-clubs-container">
+        <button id="closeContainerBtn" onclick="closeOurWineClub()"><i class="fa fa-close"></i></button>
+    
+    </div>
+
+    <!-- wine club notes container -->
+
+    <div id="wine-club-note-container">
+        <button id="closeContainerBtn" onclick="closeWineClubNotes()"><i class="fa fa-close"></i></button>
+        <div class="container">
+            <div class="row py-5" id="row">
+                <div class="col-lg-6">
+                    <h2>Overalnd Park Wine Club</h2>
+                    <h4>MAY 2023</h4>
+                    <h6>Les Allies Pinot Noir</h6>
+                    <p>Varietal: Pinot Noir</p>
+                    <p>Region: Burgundy, France</p>
+                    <p>Wine Club Level: Gold</p><br>
+                    <p>An elegant Pinot Noir, showcasing boysenberry and
+                        dark cherries with hints of ground baking spices.
+                        Tannins are round and balanced with a soft velvety
+                        nish. Les Allies Pinot Noir pairs perfectly with Wild
+                        Mushroom Ravioli on our New Spring and Summer
+                        Menu. Also try it with our Honey</p><br>
+
+                    <h6>Les Allies Pinot Noir</h6>
+                    <p>Varietal: Pinot Noir</p>
+                    <p>Region: Burgundy, France</p>
+                    <p>Wine Club Level: Gold</p><br>
+                    <p>An elegant Pinot Noir, showcasing boysenberry and
+                        dark cherries with hints of ground baking spices.
+                        Tannins are round and balanced with a soft velvety
+                        nish. Les Allies Pinot Noir pairs perfectly with Wild
+                        Mushroom Ravioli on our New Spring and Summer
+                        Menu. Also try it with our Honey</p><br>
+
+                    <h6>Les Allies Pinot Noir</h6>
+                    <p>Varietal: Pinot Noir</p>
+                    <p>Region: Burgundy, France</p>
+                    <p>Wine Club Level: Gold</p><br>
+                    <p>An elegant Pinot Noir, showcasing boysenberry and
+                        dark cherries with hints of ground baking spices.
+                        Tannins are round and balanced with a soft velvety
+                        nish. Les Allies Pinot Noir pairs perfectly with Wild
+                        Mushroom Ravioli on our New Spring and Summer
+                        Menu. Also try it with our Honey</p><br>
+
+                    <h6>Les Allies Pinot Noi</h6>
+                    <p>Varietal: Pinot Noir</p>
+                    <p>Region: Burgundy, France</p>
+                    <p>Wine Club Level: Gold</p><br>
+                    <p>An elegant Pinot Noir, showcasing boysenberry and
+                        dark cherries with hints of ground baking spices.
+                        Tannins are round and balanced with a soft velvety
+                        nish. Les Allies Pinot Noir pairs perfectly with Wild
+                        Mushroom Ravioli on our New Spring and Summer
+                        Menu. Also try it with our Honey</p>
+
+                </div>
+                <div class="col-lg-6">
+                    <h2>Des Moines Wine Club</h2>
+                    <h4>MAY 2023</h4>
+                    <h6>Albarino, Raimat</h6>
+                    <p>Varietal: Cabernet Sauvignon</p>
+                    <p>Region: Spain</p>
+                    <p>Wine Club Level: Gold/Plat</p><br>
+                    <p>Today, Raimat is one of the leading benchmarks in
+                        sustainable and organic wine-growing, the result of which is a
+                        wide range of wines and cavas of the highest quality. The current
+                        landscape of the Raimat estate has little in common with its
+                        origins when Manuel Raventós started his dream after acquiring
+                        3,200 hectares of barren land in Lleida. At that time, the estate
+                        was just a desolate desert which it was
+                        hard to imagine capable of ever bearing fruit. First sight you'll
+                        see a pale yellow colour with greenish highlights. Mineral aromas
+                        at the start, joined by white flowers, mango, melon and grapefruit. First on your palater is a fresh, citrus sensation, then a long
+                        and refreshing <br><br>
+                        finish dominated by white flowers and melon.
+                        </p><br>
+
+                        <h6>Albarino, Raimat</h6>
+                        <p>Varietal: Cabernet Sauvignon</p>
+                        <p>Region: Spain</p>
+                        <p>Wine Club Level: Gold/Plat</p><br>
+                        <p>Today, Raimat is one of the leading benchmarks in
+                            sustainable and organic wine-growing, the result of which is a
+                            wide range of wines and cavas of the highest quality. The current
+                            landscape of the Raimat estate has little in common with its
+                            origins when Manuel Raventós started his dream after acquiring
+                            3,200 hectares of barren land in Lleida. At that time, the estate
+                            was just a desolate desert which it was
+                            hard to imagine capable of ever bearing fruit. First sight you'll
+                            see a pale yellow colour with greenish highlights. Mineral aromas
+                            at the start, joined by white flowers, mango, melon and grapefruit. First on your palater is a fresh, citrus sensation, then a long
+                            and refreshing <br><br>
+                             finish dominated by white flowers and melon.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- wine club notes container -->
+
+    <div id="upcoming-events-container">
+        <button id="closeContainerBtn" onclick="closeUpcomingEvents()"><i class="fa fa-close"></i></button>
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-content">
+                            <img src="assets/images/grapes2.jpg" width="100%" alt="">
+                        </div>
+                        <div>
+                            <h4>Overland Park</h4>
+                            <h3>August Wine Club</h3>
+                            <p>This month we are transporting<br>
+                            you to African with Red Blend and<br>
+                            blah blah blah. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-content">
+                            <img src="assets/images/grapes1.jpg" width="100%" alt="">
+                        </div>
+                        <div>
+                            <h4>Des Moines</h4>
+                            <h3>August Wine Club</h3>
+                            <p>This month we are transporting<br>
+                            you to African with Red Blend and<br>
+                            blah blah blah. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-content">
+                            <img src="assets/images/grapes2.jpg" width="100%" alt="">
+                        </div>
+                        <div>
+                            <h4>Overland Park</h4>
+                            <h3>September Wine Club</h3>
+                            <p>This month we are transporting<br>
+                            you to African with Red Blend and<br>
+                            blah blah blah. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-content">
+                            <img src="assets/images/grapes1.jpg" width="100%" alt="">
+                        </div>
+                        <div>
+                            <h4>Des Moines</h4>
+                            <h3>September Wine Club</h3>
+                            <p>This month we are transporting <br>
+                            you to African with Red Blend and <br>
+                            blah blah blah. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- second-page ends------------------------------------>
+    <!-------------------------------------- third-page starts-------------------------------->
+    <section id="third-page">
+        <div class="container">
+            <h2>Delicious, handpicked wines.</h2>
+            <h2>Direct from our restaurants to you.</h2>
+            <h5>For years, Louie's Wine Dive has been bringing 
+                wonderful wines from famed winemakers and unknown vineyards to 
+                guests in our restaurants. Now, we are pleased to bring you Louie's Wine Club. 
+
+                The team has planned a guided journey for Club members encompassing
+                 wine selections from the most celebrated winemakers and wine
+                  regions on Earth, as well as the new and lesser known vineyards offering tremendous 
+                quality and value. We hope you will join us on this journey.</h5>
+        </div>
+    </section>
+
+    <!-------------------------------------- third-page ends-------------------------------->
+
+    <!-------------------------------------- fourth-page begins-------------------------------->
+    <section id="fourth-page">
+        <div class="container py-5 text-center">
+            <h1 class="pt-5">Why Louie's Wine Club?</h1>
+            <h3 class="pt-4">Learn more with tasting notes from our team of sommeliers.</h3>
+            <h5>But don't just take our word for it! Take notes
+                and follow along with our tasting guide to start picking
+                out details of the wines you love.
+                Or come in to chat with our sommeliers at any
+                Louie's Wine Dive restaurant.</h5>
+
+            <h3 class="pt-4">Don't spend money on shipping. Spend money on wine!</h3>
+            <h5>Pick up at your convenience at the Louie's Wine Dive location
+                of your choice. No shipping means we're putting more of your dollars 
+                toward what matters: sourcing and purchasing top quality wine.</h5>
+
+            <h3 class="pt-4">Broaden your perspective with wines from around the world.</h3>
+            <h5>Unlike most wine clubs, our team is not pigeonholed in
+                having to use wine of a select brand or region, 
+                but rather is procuring wine focused on your enjoyment and building knowledge.</h5>
+        </div>
+    </section>
+
+    <!-------------------------------------- fourth-page ends-------------------------------->
+
+    <!-------------------------------------- footer begins-------------------------------->
+    <section id="footer">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <h2>Pages</h2>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Returns & Cancellations</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>Get Connected</h2>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="copyright-div" class="text-center">
+            <p>© Copyright 2023 Louie's Wine Dive  ·</p>
+        </div>
+    </section>
+
+    <!-------------------------------------- fourth-page ends-------------------------------->
+<!-- -------------------------------------------- Bottstrap js links--------------------- -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="assets/js/script.js"></script>
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    </body>
+</html>

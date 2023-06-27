@@ -1,0 +1,106 @@
+
+@media only screen and (max-width: 1200px){
+   
+  
+}
+@media only screen and (max-width: 1000px){
+    #navbar .nav-links ul{
+        display: block;
+        float: left;
+        height: 0;
+        text-align: center;
+        transform: translateY(-29px);
+        background: rgba(0, 0, 0, 0.878);
+        width: 100%;
+        padding: 0;
+        transition: .4s;
+        overflow: hidden;
+    }
+    #check:checked~#myNav{
+        height: 100%;
+        padding: 20px;
+    }
+    #navbar .nav-links ul li{
+        padding: 10px;
+    }
+    .nav-links label{
+        display: block;
+    }
+    
+}
+@media only screen and (max-width: 770px){
+    #home h3{
+        font-size: 30px;
+    }
+    #home h1{
+        font-size: 50px;
+    }
+    #home p{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .row{
+        text-align: center;
+    }
+   
+}
+
+@media only screen and (max-width: 500px){
+    #home h3{
+        font-size: 25px;
+    }
+    #home h1{
+        font-size: 40px;
+    }
+    #home p{
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    
+   
+}
+@media only screen and (max-width: 400px){
+  
+    #navbar .nav-logo img{
+        width: 140px;
+    }
+    #home h3{
+        font-size: 20px;
+    }
+    #home h1{
+        font-size: 35px;
+    }
+    #second-page .row .col-md-4{
+        height: 340px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+   
+}
+@media only screen and (max-width: 370px){
+    #home{
+        background: url(../images/wine22.jpg);
+        background-position: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #third-page{
+        background: url(../images/grapes33.jpg);
+        background-position: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #home,#third-page,#fourth-page{
+        background-attachment: scroll;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 320px){
+    #second-page .row .col-md-4{
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
