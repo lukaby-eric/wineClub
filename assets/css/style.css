@@ -208,24 +208,22 @@
 }
 
 #closeContainerBtn{
-    padding: 10px;
-    transform: translateY(10px);
-    background: none;
+    padding: 10px 20px;
     border: none;
-    color: red;
+    background: red;
+    color: white;
     box-shadow: 0 0 4px red;
-    border-radius: 50% 50% 0 0;
+    border-radius: 0 50% 50% 0;
     outline: none;
     position: fixed;
-    right: 50%;
-    bottom: 0;
+    left: 0;
+    top: 50%;
     cursor: pointer;
     z-index: 999;
-    background: white;
 }
 #closeContainerBtn:hover{
-    background: rgba(255, 0, 0, 0.443);
-    transform: translateY(0px);
+    background: rgba(255, 0, 0, 0.801);
+    padding: 10px 30px;
 }
 
 /* wineclub container */
