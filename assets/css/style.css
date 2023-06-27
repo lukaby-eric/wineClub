@@ -214,11 +214,11 @@
     border: none;
     color: red;
     box-shadow: 0 0 4px red;
-    border-radius: 0 0 50% 50%;
+    border-radius: 50% 50% 0 0;
     outline: none;
     position: fixed;
     right: 50%;
-    top: 0;
+    bottom: 0;
     cursor: pointer;
     z-index: 999;
     background: white;
