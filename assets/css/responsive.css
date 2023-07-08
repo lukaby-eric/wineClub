@@ -70,10 +70,20 @@
     #home h1{
         font-size: 35px;
     }
-    #second-page .row .col-md-4{
-        height: 340px;
+    #second-page .row .col-lg-6{
+        height: 300px;
         width: 100%;
         overflow: hidden;
+    }
+    #second-page .row .col-lg-6 #texts{
+        transform: translateY(40px);
+    }
+    #second-page .row .col-lg-6 #texts h2{
+        font-size: 13px;
+    }
+    #second-page .row .col-lg-6 #texts i{
+        font-size: 20px;
+        padding: 8px;
     }
     
    
@@ -97,8 +107,8 @@
     }
 }
 @media only screen and (max-width: 320px){
-    #second-page .row .col-md-4{
-        height: 300px;
+    #second-page .row .col-lg-6{
+        height: 250px;
         width: 100%;
         overflow: hidden;
     }
