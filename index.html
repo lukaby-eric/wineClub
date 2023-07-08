@@ -23,11 +23,10 @@
                 <input type="checkbox" id="check">
                 <label for="check" class="fa fa-bars"></label>
                 <ul id="myNav">
-                    <li><a href="#second-page">Wine Club</a></li>
+                    <!-- <li><a href="#second-page">Wine Club</a></li> -->
                     <li><a href="https://www.louieswinedive.com/">Louie's Wine Dive</a></li>
                     <!-- <li><a href="pages/gift-membership.html">Gift Memberships</a></li> -->
                     <li><a href="pages/about-us.html">About Us</a></li>
-                    <li><a href="#" class="fa fa-cart-plus"> (0) | $0.00</a></li>
                 </ul>
             </div>
         </div>
@@ -58,16 +57,18 @@
     <siction id="second-page">
         <div class="container py-5">
             <div class="row">
-                <div class="col-md-4" id="wine-clubs">
+                <div class="col-md-6" id="wine-clubs">
                     <img src="assets/images/wine9.jpg" id="secondpage-img">
-                    <div id="descriptions" onclick="openOurWineClub()">
-                        <div class="text-center" id="texts">
-                            <i id="i" class="fa fa-glass"></i>
-                            <h2>Our Wine Clubs</h2>
-                        </div>                         
-                    </div>    
+                    <a href="pages/our-wine-club.html">
+                        <div id="descriptions">
+                            <div class="text-center" id="texts">
+                                <i id="i" class="fa fa-glass"></i>
+                                <h2>Our Wine Clubs</h2>
+                            </div>                         
+                        </div> 
+                    </a>   
                 </div>
-                <div class="col-md-4" id="club-notes">
+                <!-- <div class="col-md-4" id="club-notes">
                     <img src="assets/images/wine1x.jpg" id="secondpage-img">
                     <div id="descriptions" onclick="openWineClubNotes()">
                         <div class="text-center" id="texts">
@@ -75,8 +76,8 @@
                             <h2>Wine Clubs Notes</h2>
                         </div>    
                     </div>
-                </div>
-                <div class="col-md-4" id="events">
+                </div> -->
+                <div class="col-md-6" id="events">
                     <img src="assets/images/wine5x.jpg" id="secondpage-img">
                     <div id="descriptions" onclick="openUpcomingEvents()">
                         <div class="text-center" id="texts">
@@ -88,9 +89,9 @@
             </div>
         </div>
     </siction>
-    <!-- wine club notes container -->
+    <!-- wine club container -->
 
-    <div id="our-wine-clubs-container">
+    <!-- <div id="our-wine-clubs-container">
         <button id="closeContainerBtn" onclick="closeOurWineClub()"><i class="fa fa-close"></i></button>
         <div id="wineclub">
             <div id="wineclub-head">
@@ -207,7 +208,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- wine club notes container -->
 
