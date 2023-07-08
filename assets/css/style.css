@@ -154,22 +154,22 @@
 /* second page starts */
 
 #second-page .row{
-    margin: 60px 0;
+    margin: 60px;
 }
 
-#second-page .row .col-md-4{
+#second-page .row .col-md-6{
     height: 370px;
     width: 100%;
     overflow: hidden;
 }
-#second-page .row .col-md-4 img{
+#second-page .row .col-md-6 img{
     height: 100%;
     width: 100%;
 }
-#second-page .row .col-md-4:hover #secondpage-img{
+#second-page .row .col-md-6:hover #secondpage-img{
     transform: scale(1,1.04);
 }
-#second-page .row .col-md-4 a{
+#second-page .row .col-md-6 a{
     color: white;
     text-shadow: 0px 0px 4px black;
     text-decoration: none;
@@ -186,10 +186,10 @@
     transition: .4s;
     cursor: pointer;
 }
-#second-page .row .col-md-4:hover #descriptions{
+#second-page .row .col-md-6:hover #descriptions{
     background: linear-gradient(rgba(0, 0, 0, 0.516),black);
 }
-#second-page .row .col-md-4:hover #i{
+#second-page .row .col-md-6:hover #i{
     color: #285e01;
     border: 2px solid #285e01;
 }
@@ -203,7 +203,7 @@
 #descriptions #texts{
     transform: translateY(-20px);
 }
-#second-page .row .col-md-4:hover #texts{
+#second-page .row .col-md-6:hover #texts{
     transform: translateY(-10px);
 }
 
@@ -533,7 +533,60 @@
 #gift-btn:hover#gift-btn::before{
     width: 100%;
 }
-
+#drop-c{
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+#drop-c a{
+    text-decoration: none;
+    color: #285e01;
+    font-weight: bold;
+    padding: 3px 10px;
+}
+#drop-c a:hover{
+    background: #285e01;
+    color: white;
+}
+#checkbt:checked~#drop-c{
+    display: block;
+}
+#drop-cc{
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+#drop-cc a{
+    text-decoration: none;
+    color: #285e01;
+    font-weight: bold;
+    padding: 3px 10px;
+}
+#drop-cc a:hover{
+    background: #285e01;
+    color: white;
+}
+#checkbtt:checked~#drop-cc{
+    display: block;
+}
+#drop-ccc{
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+#drop-ccc a{
+    text-decoration: none;
+    color: #285e01;
+    font-weight: bold;
+    padding: 3px 10px;
+}
+#drop-ccc a:hover{
+    background: #285e01;
+    color: white;
+}
+#checkbttt:checked~#drop-ccc{
+    display: block;
+}
 /* -----------------Gift Membership page ends-------------------- */
 
 /* -----------------About Us page starts-------------------- */
