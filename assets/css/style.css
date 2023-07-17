@@ -256,7 +256,6 @@
 #our-wine-clubs-container{
     height: 100vh;
     width: 100%;
-    background: white;
     position: fixed;
     z-index: 999;
     bottom: 0;
@@ -267,109 +266,19 @@
 #wineclub{
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow-y: scroll;
     overflow-x: hidden;
-    background: black;
-    color: rgb(222, 219, 219);
+    background: rgba(243, 241, 241, 0.963);
 }
-#our-wine-clubs-container #wineclub-head{
-    height: 80%;
-    width: 100%;
-    padding: 60px 0;
-    background: url(../images/wine2x.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#tittle-wine{
-    color: #285e01;
-}
-#join{
-    color: white;
-    background: #285e01;
-    padding-top: 60px;
-}
-#gold-club-container,#diamond-club-container,#platinum-club-container{
-    background: rgb(219, 216, 216);
+#wineclub a{
+    text-decoration: none;
     color: black;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 0;
-    transition: .4s;
 }
-#wine-content-box button{
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    background: #285e01;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-#wine-content-box button:hover{
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    background: #4ebb00;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-#gold:checked~#gold-club-container{
-    padding: 25px 20px;
-    height: 100%;
-}
-#diamond:checked~#diamond-club-container{
-    padding: 25px 20px;
-    height: 100%;
-}
-#platinum:checked~#platinum-club-container{
-    padding: 25px 20px;
-    height: 100%;
-}
-#wine-content-box input{
-    display: none;
-}
-#wine-content-box label{
-    background: #285e01;
-    width: 100%;padding: 20px;
-    cursor: pointer;
-    margin-bottom: -5px;
-}
-#wine-content-box label:hover{
-    background: #285e01b9;
-    transform: skewX(5deg);
-}
-#wine-content-box label i{
-    float: right;
-}
-#wineclub .col-md-3{
-    margin-bottom: 10px;
-}
-#wineclub .col-md-3 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-#wineclub .col-md-3 img:hover{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: scale(1.2,1.2);
-}
-#wine-footer{
-    height: 90px;
-    padding: 20px;
-    width: 100%;
-    background: rgb(240, 239, 239);
-    text-align: center;
-}
-#wine-footer img{
-    height: 100%;
+#wineclub a:hover{
+    color: #4ebb00;
 }
 /* wineclub notes container */
 #wine-club-note-container{
