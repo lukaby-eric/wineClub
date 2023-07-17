@@ -56,8 +56,8 @@
                  to winemaker dinners, tastings and other VIP experiences.</p>
             <div id="joinn">
                 <input type="checkbox" id="home-input" style="display: none;">
-                <a href="pages/desmoines-wine-club.html" id="desmoines">Des Moines</a>
-                <label for="home-input" id="home-btn"><i class="fa fa-glass" id="fa"></i> JOIN NOW</label>
+                <a href="pages/desmoines-wine-club.html" id="desmoines">Des Moines </a>
+                <label for="home-input" id="home-btn"> JOIN NOW <i id="fa" class="fa fa-glass"></i></label>
                 <a href="pages/overlandpark-wine-club.html" id="overland">Overland Park</a>
             </div>
         </div>
@@ -67,16 +67,14 @@
     <siction id="second-page">
         <div class=" py-5">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12" id="wine-clubs">
+                <div class="col-lg-6 col-md-12 col-sm-12" id="wine-clubs" onclick="openOurWineClub()">
                     <img src="assets/images/wine9.jpg" id="secondpage-img">
-                    <a href="pages/our-wine-club.html">
-                        <div id="descriptions">
-                            <div class="text-center" id="texts">
-                                <i id="i" class="fa fa-glass"></i>
-                                <h2>Our Wine Clubs</h2>
-                            </div>                         
-                        </div> 
-                    </a>   
+                    <div id="descriptions">
+                        <div class="text-center" id="texts">
+                            <i id="i" class="fa fa-glass"></i>
+                            <h2>Our Wine Clubs</h2>
+                        </div>                         
+                    </div>    
                 </div>
                 <!-- <div class="col-md-4" id="club-notes">
                     <img src="assets/images/wine1x.jpg" id="secondpage-img">
@@ -101,124 +99,15 @@
     </siction>
     <!-- wine club container -->
 
-    <!-- <div id="our-wine-clubs-container">
+    <div id="our-wine-clubs-container">
         <button id="closeContainerBtn" onclick="closeOurWineClub()"><i class="fa fa-close"></i></button>
         <div id="wineclub">
-            <div id="wineclub-head">
-                <div class="container">
-                    <img src="assets/images/words.png" width="100%" alt="">
-                </div>            
-            </div>
-            <div id="wineclub-body">
-                <div class="container py-5">
-                    <h1 id="tittle-wine"><span id="join">JOIN</span> THE FAMILY</h1>
-                    <h6>Louie’s Wine Dive is proud to offer you membership to our Wine Club.
-                         Club members will receive carefully selected and
-                          exceptional handcrafted wine every month, with introductions and tasting notes 
-                          from the Louie’s Wine Dive team of certified sommeliers. Join a community of 
-                          wine lovers centered around your local Louie's Wine Dive and enjoy monthly
-                           community events like Wine Club Wednesday, members-only access to small lots of wine,
-                         and early access to winemaker dinners, tastings and other VIP experiences.</h6>
-                    <h1 class="py-5">DES MOINES, IA</h1>
-                    <div id="wine-content-box">
-                        <input type="checkbox" id="gold">
-                        <label for="gold">Gold Club <i class="fa fa-plus"></i></label>
-                        <div id="gold-club-container">
-                            <h2><span>___</span>GOLD CLUB</h2>
-                            <h6 class="py-2">Our Gold Club membership is the perfect introduction 
-                                to the world of wine, with each 
-                                monthly delivery showcasing a grape varietal and a region.</h6>
-                            <h6 class="py-2">The Gold Club is a delicious introduction to the 
-                                world of wine. The focus of the Gold Club is in showcasing wine regions,
-                                 vineyards, grape varietals and methods of winemaking</h6>
-                            <h6 class="py-2">Every month a selection of one wine will be presented
-                                 to Gold Club members. Unlike most wine clubs, our team is not pigeonholed 
-                                 in having to use wine of a select brand or region, but rather is procuring
-                                  wine focused on your
-                                 enjoyment and building knowledge. One bottle, $17.99/month
-                                  or $199.99/year</h6>
-                            <button>Monthly Club</button>
-                            <button>Yearly Club</button>
-                        </div>
-                        <input type="checkbox" id="diamond">
-                        <label for="diamond">Diamond Club <i class="fa fa-plus"></i></label>
-                        <div id="diamond-club-container">
-                            <h2><span>___</span>DIAMOND CLUB</h2>
-                            <h6 class="py-3">Our Gold Club membership is the perfect 
-                                introduction to the world of wine, with each monthly 
-                                delivery showcasing a grape varietal and a region.</h6>
-                            <h6 class="py-3">The Gold Club is a delicious introduction to the world of wine.
-                                 The focus of the Gold Club is in showcasing wine regions, vineyards, grape 
-                                 varietals and methods of winemaking</h6>
-                            <h6 class="py-3">Every month a selection of one wine will be presented to Gold Club members.
-                                 Unlike most wine clubs, our team is not pigeonholed in 
-                                 having to use wine of a select brand or region, 
-                                but rather is procuring wine focused on your enjoyment and building knowledge.</h6>
-                            <h6 class="py-3">The Diamond Club introduces benchmark wines that 
-                                sommeliers and winemakers drink not just to understand what makes them tick, 
-                                but because they are wonderful. We’ve attached the descriptive label,
-                                 “A Walk Along the Winemaker’s Trail,” to the Diamond Club, 
-                                 because it will guide you on a journey through places of origin, 
-                                 grape varietals, and winemaking techniques that 
-                                are important to understand in order to truly know wine.</h6>
-                            <h6 class="py-3">Bordeaux and Napa, Sauvignon Blanc in New Zealand and France,
-                                 and Pinot Noir from Burgundy and Willamette.
-                                  We want you to learn what you enjoy most, which may end up being all of it!
-                                   Learning to distinguish these independent flavor profiles 
-                                will also help you better pair cuisine with wine, and create amazin</h6>
-                            <h6 class="py-3">One bottle, $17.99/month or $199.99/year
-                                The Diamond Level introduces the principles that sommeliers
-                                 and winemakers follow, with two distinctive bottles of
-                                  wine each month.
-                                One bottle, $29.99/month</h6>
-                                <button>Monthly Club</button>
-                        </div>
-                        <input type="checkbox" id="platinum">
-                        <label for="platinum">Platinum Club <i class="fa fa-plus"></i></label>
-                        <div id="platinum-club-container">
-                            <h2><span>___</span>PLATINUM CLUB</h2>
-                            <h6 class="py-3">The Platinum Level features two bottles of 
-                                wine that share pedigree by way of origin, grape varietal(s), 
-                                or method of winemaking.
-                                One bottle, $49.99/month</h6>
-                                <button>Monthly Club</button>
-                        </div>
-                    </div>
-                    <div class="gallery py-5">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <img src="assets/images/wine1x.jpg" alt="">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/images/wine4x.jpg" alt="">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/images/wine5x.jpg" alt="">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/images/wine6x.jpg" alt="">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/images/wine7x.jpg" alt="">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/images/wine8x.jpg" alt="">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/images/wine9.jpg" alt="">
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/images/wine10x.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="wine-footer">
-                    <img src="assets/images/louies.png" alt="">
-                </div>
+            <div id="wineclub-body" class="text-center">
+               <h3><a href="pages/desmoines-wine-club.html"><i class="fa fa-glass"></i> Des Moines Wine Club</a></h3><br>
+               <h3><a href="pages/overlandpark-wine-club.html"><i class="fa fa-glass"></i> Overland Park Wine Club</a></h3>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- wine club notes container -->
 
