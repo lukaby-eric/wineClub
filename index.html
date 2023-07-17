@@ -21,12 +21,12 @@
             </div>
             <div class="nav-links">
                 <input type="checkbox" id="check">
-                <label for="check" class="fa fa-bars"></label>
+                  <label for="check" class="fa fa-bars"></label>
                 <ul id="myNav">
                     <div id="dropdown">
                         <li id="drop"><a>Wine Club</a></li>
                         <div id="dropdown-content">
-                            <li><a href="#">Des Moines, IA</a></li>
+                            <li><a href="pages/desmoines-wine-club.html">Des Moines, IA</a></li>
                             <li><a href="#">Overland Park, KS</a></li>
                         </div>
                     </div>
@@ -54,8 +54,12 @@
                   monthly community events like Wine Club Tastings, members-only 
                   access to small lots of wine, and early access
                  to winemaker dinners, tastings and other VIP experiences.</p>
-
-            <a href="pages/our-wine-club.html" id="btn"><i id="glass-one" class="fa fa-glass"></i><button id="home-btn">JOIN NOW</button><i id="glass-two" class="fa fa-glass"></i></a>
+            <div id="joinn">
+                <input type="checkbox" id="home-input" style="display: none;">
+                <a href="pages/desmoines-wine-club.html" id="desmoines">Des Moines</a>
+                <label for="home-input" id="home-btn"><i class="fa fa-glass" id="fa"></i> JOIN NOW <i id="fa" class="fa fa-glass"></i></label>
+                <a href="pages/overlandpark-wine-club.html" id="overland">Overland Park</a>
+            </div>
         </div>
     </section>
     <!-------------------------------------- home-page ends------------------------------------>
