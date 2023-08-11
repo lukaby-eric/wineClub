@@ -70,6 +70,7 @@
     transition: .4s;
     position: absolute;
     width: 250px;
+    z-index: 111;
 }
 #dropdown-content li{
     padding: 10px;
