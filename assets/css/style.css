@@ -657,3 +657,10 @@
     padding: 10px;
     border-top: 1px solid rgba(128, 128, 128, 0.282);
 }
+#gift-btn2{
+    background: rgb(150, 36, 36);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
